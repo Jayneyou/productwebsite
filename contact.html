@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iGuzzini contact information">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Josefin+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- contact form -->
+    <div class="contactContainer">
+        <h1>Contact Us</h1>
+        <form action="submit">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number">Your Phone Number</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8"></textarea>
+                <label for="message">Tell us what you think...</label>
+            </div>
+            <button class="contact-button" type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <!-- company contact info -->
+    <div class="company-contact">
+        <div class="website">
+            <img src="/img/web.png" alt="">
+            <h4>Our Website</h4>
+            <p>iguzzini.com</p>
+        </div>
+        <div class="text">
+            <img src="/img/phone-call.png" alt="">
+            <h4>Our Phone</h4>
+            <p>+39(123)-456-7890</p>
+        </div>
+        <div class="location">
+            <img src="/img/gps.png" alt="">
+            <h4>Our Office</h4>
+            <p>Recanati, Italy</p>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div id="footerContainer"></div>
+    </footer>
+</body>
+
+</html>
