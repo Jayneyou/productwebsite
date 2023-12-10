@@ -345,7 +345,7 @@ footer {
 }
 
 .left-pic:hover {
-    background-image: url('https://jayneyou.github.io/website.github.io/img/light.JPG');
+    background-image: url("https://jayneyou.github.io/website.github.io/img/light.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -432,7 +432,7 @@ footer {
 
 /* contact page */
 .contactContainer {
-    background-image: url('https://jayneyou.github.io/website.github.io/img/contact-back.png');
+    background-image: url("https://jayneyou.github.io/website.github.io/img/contact-back.png");
     height: 100vh;
     width: 100%;
     background-position: center;
