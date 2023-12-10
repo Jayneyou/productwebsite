@@ -143,7 +143,7 @@ footer {
 
 /* HomePage */
 .home1 {
-    background-image: url(img/home1-back.png);
+    background-image: url("https://jayneyou.github.io/website.github.io/img/home1-back.png");
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -339,7 +339,7 @@ footer {
 
 .left-pic {
     flex: 1;
-    background-image: url('./img/left-pic.jpg');
+    background-image: url("img/left-pic.jpg");
     background-position: center;
     background-size: cover;
 }
